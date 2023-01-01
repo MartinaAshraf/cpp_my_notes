@@ -11,7 +11,7 @@ int main()
 	cout << "Enter the second number = ";
 	cin >> num2;
 	if (num1 > num2) { cout << " The biggest number is : " << num1<<endl; }
-	if (num1 < num2) { cout << " The biggest number is : " << num2 << endl; }
+	else if (num1 < num2) { cout << " The biggest number is : " << num2 << endl; }
 	else { cout << " The two numbers are equal"; }
   
 }
