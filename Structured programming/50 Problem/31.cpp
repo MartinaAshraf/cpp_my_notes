@@ -1,12 +1,14 @@
-/* If C and F are Celsius and Fahrenheit temperatures respectively, the formula for conversion from Celsius to Fahrenheit is
-F = 9C/5 + 32. 
+/* If C and F are Celsius and Fahrenheit temperatures respectively, the formula for conversion
+from Celsius to Fahrenheit is F = 9C/5 + 32.
 
-(a)Write a C++ program which will ask you for the Celsius temperature and display the equivalent Fahrenheit one with some sort of comment,
-e.g. The Fahrenheit temperature is: ...
-Try it out on the following Celsius temperatures (answers in parentheses):0 (32), 100 (212), -40 (-40!), 37 (normal human temperature: 98.6).
+(a) Write a C++ program which will ask you for the Celsius temperature and display the
+equivalent Fahrenheit one with some sort of comment, e.g.
+The Fahrenheit temperature is: ...
+Try it out on the following Celsius temperatures (answers in parentheses):0 (32), 100
+(212), -40 (-40!), 37 (normal human temperature: 98.6).
 
 (b) Change the program to use a DO loop to compute and write the Fahrenheit equivalent
-of Celsius temperatures ranging from 20° to 30° in steps of 1°
+of Celsius temperatures ranging from 20° to 30° in steps of 1°.
 */
 #include <iostream>
 using namespace std;
