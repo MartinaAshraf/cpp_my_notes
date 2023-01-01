@@ -12,7 +12,7 @@ int main()
 {
     int x,t;
      double z,y;
-         cout<<"Enter T: " ;
+         cout<<"Enter T : " ;
          cin>>t;
          x=pow(t,2)-8*t+4;
          y= (sin(t))+(cos(2*t));
