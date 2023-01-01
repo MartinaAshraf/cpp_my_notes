@@ -6,13 +6,13 @@ using namespace std;
 int main()
 {
 	int A, B, T;
-	cout << "Enter frist number   = ";
+	cout << "Enter the frist number   = ";
 	cin >> A;
-	cout << "Enter second number  = ";
+	cout << "Enter the second number  = ";
 	cin >> B;
 	T = A;
 	A = B;
 	B = T;
-	cout << "Enter frist number   = " << A << endl << "Enter second number  = " << B << endl;
+	cout << "The frist number is : " << A << endl << "The  second number is : " << B << endl;
   
 }
