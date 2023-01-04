@@ -15,14 +15,13 @@ cout << " e = " << e << "\n";
 double x = 1.0;
 double res = 3.0;
 double eps = 1e-8;
-while (res - e >= eps) 
-{
+while (res - e >= eps) {
 res = 1 / pow((1.0 - x), 1 / x);
-x /= 10;
 cout << fixed << setprecision(9);
 cout << "when x = " << x << " ===>> ";
 cout << fixed << setprecision(7);
 cout << "result = " << res;
 cout << "\n";
+x /= 10;
 }
 }
