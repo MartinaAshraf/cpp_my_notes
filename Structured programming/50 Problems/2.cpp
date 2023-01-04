@@ -7,9 +7,9 @@ error.
 #include <iostream>
 #include<cmath>
 #include<algorithm>
-Using namespace std;
+using namespace std;
 
-Int main()
+int main()
 {
     int r,h;//3,4
     double A,S,Sc,V;
