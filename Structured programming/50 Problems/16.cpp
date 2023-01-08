@@ -1,3 +1,8 @@
+/*Write a C++ program that calculates (to five decimal places):
+a) (1/3)+(1/5)+ ⋯(1/99)
+b) (2/1)×(4/3)× … ×(98/99)
+*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
