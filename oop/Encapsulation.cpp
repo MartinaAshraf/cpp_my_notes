@@ -34,3 +34,23 @@ Circle ob1;
 ob1.setvalue();
 ob1.printArea();
 }
+
+//برنامج بتدخل فيه اسم موظفين و رواتبهم و بيطبع حاصل جمع الرواتب دى 
+
+#include <iostream>
+using namespace std ;
+class Campany {
+private :
+    int sal;
+    string name;
+public:
+    void setvalue (){cin >> sal >> name;}
+    void getsal(Campany ob1){cout<<ob1.sal+sal;}
+};
+int main(){
+Campany ob1;
+ob1.setvalue();
+Campany m;
+m.setvalue();
+m.getsal(ob1);
+}
