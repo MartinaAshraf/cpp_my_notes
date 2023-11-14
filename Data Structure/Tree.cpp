@@ -1,3 +1,14 @@
+//لشرح Tree 
+//الكود اللى شغال -> tree.cpp
+#include <iostream>
+using namespace std;
+struct Node
+{
+    int data;
+    Node* left;
+    Node* right;
+};
+
 void delNode(Node *root, int item)
 {
   if (root == NULL)
@@ -64,7 +75,12 @@ void delNode(Node *root, int item)
           cur = NULL;
         }
       }
+      
     }
     delete cur;
   }
+}
+int main()
+{
+    return 0;
 }
